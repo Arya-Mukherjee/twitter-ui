@@ -302,6 +302,9 @@
   .table {
     display: table;
   }
+  .\!h-\[20rem\] {
+    height: 20rem !important;
+  }
   .h-0 {
     height: calc(var(--spacing) * 0);
   }
@@ -322,6 +325,9 @@
   }
   .h-\[1px\] {
     height: 1px;
+  }
+  .h-\[20rem\] {
+    height: 20rem;
   }
   .h-\[30rem\] {
     height: 30rem;
@@ -816,6 +822,21 @@
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
+    }
+  }
+  .md\:\!h-\[30rem\] {
+    @media (width >= 48rem) {
+      height: 30rem !important;
+    }
+  }
+  .md\:h-\[20rem\] {
+    @media (width >= 48rem) {
+      height: 20rem;
+    }
+  }
+  .md\:h-\[30rem\] {
+    @media (width >= 48rem) {
+      height: 30rem;
     }
   }
   .md\:w-\[70\%\] {
