@@ -309,6 +309,9 @@
   .h-\[1px\] {
     height: 1px;
   }
+  .h-\[30rem\] {
+    height: 30rem;
+  }
   .h-\[33rem\] {
     height: 33rem;
   }
@@ -329,6 +332,9 @@
   }
   .w-18 {
     width: calc(var(--spacing) * 18);
+  }
+  .w-\[33rem\] {
+    width: 33rem;
   }
   .w-\[95\%\] {
     width: 95%;
