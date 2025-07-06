@@ -1,0 +1,9 @@
+# Ignore node_modules and related files
+node_modules/
+bib.txt
+package-lock.json
+package.json
+
+# OS junk
+.DS_Store
+Thumbs.db
